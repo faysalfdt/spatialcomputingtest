@@ -26,6 +26,7 @@ namespace Normal.Realtime.Examples {
             float x = Input.GetAxis("Horizontal");
             float y = Input.GetAxis("Vertical");
 
+            Debug.Log("For the PR");
             // Apply to the transform
             Vector3 localPosition = transform.localPosition;
             localPosition.x += x * speed * Time.deltaTime;
